@@ -9,6 +9,6 @@ function getFormvalue() {
 document.getElementById("loginForm").addEventListner("submit", function(event){
 event.preventDefault();
 	getFormValue();
-})
+});
 
 
